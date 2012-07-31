@@ -13,7 +13,7 @@ pageEncoding="ISO-8859-1"%>
 	</head>
 	<body class="zeroMargin">
 		<%=Utility.getHTMLHeaderMenu()%>
-		<div align="center"><form name="shippingModeSelectForm" method="post" action="processShippingSelection">
+		<div align="center"><form name="shippingModeSelectForm1" method="post" action="processShippingSelection">
 		<%
 			if(null != request.getParameter("noselect")) {
 			out.println("Seems like you have nothing in your shopping cart. Please shop first.");
