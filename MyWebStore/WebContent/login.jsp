@@ -13,7 +13,7 @@ pageEncoding="ISO-8859-1"%>
 		<div><table width="100%"  border="0">
 			<tr>
 				<td><div align="center">
-					<form name="form1" method="post" action="loginServlet">
+					<form name="loginForm" method="post" action="loginServlet">
 						<%
 						if(null != request.getParameter("error")) {
 						%>
