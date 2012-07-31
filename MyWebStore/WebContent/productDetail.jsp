@@ -25,7 +25,7 @@ pageEncoding="ISO-8859-1"%>
 		<table width="100%"  border="0">
 			<tr>
 				<td width="300px"><img src="" width="300px" height="200px"><br>
-					<form name="form1" method="post" action="addProductToCart">
+					<form name="productDetailForm" method="post" action="addProductToCart">
 						Quantity: 
 						<input name="quantity" type="text" id="quantity">
 						<input type="hidden" name="pid" value="<%= request.getParameter("pid") %>">
