@@ -14,7 +14,7 @@ pageEncoding="ISO-8859-1"%>
 			<table width="100%" border="0">
 				<tr>
 					<td><div align="center">
-						<form name="form1" method="post" action="processAddressDetail">
+						<form name="addressForm" method="post" action="processAddressDetail">
 							<table width="373" border="0">
 								<tr>
 									<td colspan="2"><div align="center">Add new Address
