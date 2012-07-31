@@ -13,7 +13,7 @@ pageEncoding="ISO-8859-1"%>
 		<div><table width="100%"  border="0">
 			<tr>
 				<td><div align="center">
-					<form name="form1" method="post" action="processCustomer">
+					<form name="cutomerDetailForm" method="post" action="processCustomer">
 						<table width="373" border="0">
 							<tr>
 								<td colspan="2"><div align="center">Please fill the details </div></td>
